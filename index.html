@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jumbl'd</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="home">
+    <h1>Jumbl'd</h1>
+    <button id="start">Start</button>
+    <h4>All the best! Play away.</h4>
+    <h6>Created by: Akshaya Udhayagiri</h6>
+  </div>
+
+  <div id="instructions" style="display: none;">
+    <div class="instructions-container">
+      <div class="instructions-left">
+        <h2>Instructions</h2>
+        <p>
+          Welcome to Jumbl'd!<br /><br />
+          Test your brain with this fast-paced word game. Here's how to play:<br /><br />
+          1. You'll see a scrambled word on the screen.<br /><br />
+          2. Unscramble it before time runs out!<br /><br />
+          3. You can select how many words you want to play.<br /><br />
+          4. Choose how much time you get per word — 10s, 30s, or 60s.<br /><br />
+          5. Hit "Begin" to start and type your answers fast!<br /><br />
+          Score is based on speed and accuracy.<br /><br />
+          Ready to jumble some words?
+        </p>
+      </div>
+
+      <div class="instructions-right">
+        <label for="wordCount">Number of Words:</label><br />
+        <select id="wordCount">
+          <option value="5">5</option>
+          <option value="10" selected>10</option>
+          <option value="15">15</option>
+        </select>
+
+        <br /><br />
+
+        <label for="timeLimit">Time Limit per Word:</label><br />
+        <select id="timeLimit">
+          <option value="10">10 seconds</option>
+          <option value="30" selected>30 seconds</option>
+          <option value="60">60 seconds</option>
+        </select>
+
+        <br /><br />
+        <button id="begin">Begin</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="game" style="display: none; text-align: center; color: white;">
+    <h2 id="scrambledWord">_ _ _ _</h2>
+    <p>Time left: <span id="timer">0</span> seconds</p>
+    <input type="text" id="userInput" placeholder="Type your guess" autocomplete="off" />
+    <br /><br />
+    <button id="nextWord">Next</button>
+  </div>
+
+  <div id="scorecard" style="display: none; text-align: center; color: white;">
+    <h2>Game Over!</h2>
+    <p>Your Score: <span id="score">0</span> / <span id="totalWords">0</span></p>
+    <button id="playAgain">Play Again</button>
+  </div>
+
+  <script src="words.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
