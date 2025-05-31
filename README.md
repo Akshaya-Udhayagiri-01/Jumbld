@@ -10,3 +10,7 @@
 - 🏆 Score calculated based on correct answers
 - ⚡ Clean, responsive design across all devices
 - ✨ Smooth animations and intuitive UI
+
+## 🌐 Live Demo
+
+🔗 [Play Jumbl’d on Vercel](jumbld.vercel.app)  
