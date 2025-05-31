@@ -13,4 +13,4 @@
 
 ## 🌐 Live Demo
 
-🔗 [Play Jumbl’d on Vercel](jumbld.vercel.app)  
+🔗 [Play Jumbl’d on Vercel](https://jumbld.vercel.app/)  
