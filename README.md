@@ -1,4 +1,4 @@
-5# Jumbl’d 🔤🎮
+# Jumbl’d 🔤🎮
 
 **Jumbl’d** is a fast-paced, browser-based word unscrambling game built using **HTML5**, **CSS3**, **JavaScript (Vanilla JS)** and deployed via **Vercel**. Challenge your brain, test your reflexes, and see how many scrambled words you can solve before time runs out!
 
