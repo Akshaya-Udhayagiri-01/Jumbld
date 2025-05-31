@@ -8,7 +8,7 @@
 - ⏱️ Set your own time limit per word: 10s, 30s, or 60s
 - 🔢 Choose how many words you want to play
 - 🏆 Score calculated based on correct answers
-- ⚡ Clean, responsive design
+- ⚡ Clean, responsive design across all devices
 - ✨ Smooth animations and intuitive UI
 
 ## 🌐 Live Demo
